@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+    <div class="header__logo">
+        <a href="#"><img src="img/temporary-logo.svg" alt="logo"></a>
+    </div>
+</header>
+
+<section class="promo">
+    <div class="promo__text">
+        <h1>3k mmo</h1>
+        <h2>THE FIRST MULTICHAIN NFT<br>MMORPG GAME</h2>
+    </div>
+    <div class="promo__form">
+        <form action="mail.php" method="POST" class="promo__form-inner">
+            <input type="email" id="mail" name="email" placeholder="E-MAIL" required/>
+            <button type="submit" name="submit" class="promo__btn" id="btn_submit">subscribe to demo</button>
+        </form>
+        <div class="alert alert_success contact__msg" style="display: none;width: 360px;margin: 0 auto;border-radius: 0;margin-top: 1%;text-align: center;" role="alert">
+            You have successfully subscribed to game updates.
+        </div>
+    </div>
+</section>
+<script src="js/form.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/style.js"></script>
+</body>
+</html>

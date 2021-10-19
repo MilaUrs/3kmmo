@@ -1,0 +1,35 @@
+{
+  "name": "cosmetics-brand-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilaUrs/Cosmetics-brand-landing.git"
+  },
+  "author": "Mila Urs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilaUrs/Cosmetics-brand-landing/issues"
+  },
+  "homepage": "https://github.com/MilaUrs/Cosmetics-brand-landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

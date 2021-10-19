@@ -1,0 +1,64 @@
+.promo {
+    &__text {
+        padding-top: 10%;
+    }
+    &__form-inner {
+        width: 370px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            padding: 0;
+            margin: 0;
+            height: 60px;
+            border: 3px solid #940CFE;
+            box-sizing: border-box;
+            width: 180px;
+            border-radius: 0;
+            outline: none;
+            padding: 1px 15px 0 15px;
+            font-family: Barlow Condensed;
+            font-weight: 500;
+            font-size: 20px;
+            color: #747474;
+        }
+    }
+    &__btn {
+        font-family: Barlow Condensed;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        box-sizing: border-box;
+        height: 60px;
+        width: 180px;
+        border: none;
+        background-color: #940CFE;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover {
+            background-color: #7D00DF;
+        }
+    }
+    &__form {
+        margin-top: 4%;
+    }
+}
+
+.alert {
+    position: relative;
+    padding: 10px 5px;
+    border: 1px solid transparent;
+}
+
+.alert_success {
+    background-color: #eefffa;
+    border-color: #c3e6cb;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 20px;
+    color: #494949;
+    text-transform: none;
+}
+
