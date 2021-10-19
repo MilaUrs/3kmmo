@@ -21,7 +21,9 @@
         # Send the email.
         $success = mail($mail_to,$content, $headers);
         if ($success) {
-                ('.alert').classList.AddClass('success');
+            echo " 
+            You have successfully subscribed to game updates.
+            ";
         } else {
             # Set a 500 (internal server error) response code.
             http_response_code(500);
@@ -33,6 +35,28 @@
         http_response_code(403);
         echo "There was a problem with your submission, please try again.";
     }
+
+    
+    /* $(".promo__form-inner").submit(function() {
+        var th = $(this);
+        var $popThankYouWindow = $(".alert_success");
+        $.ajax({
+          type: "POST",
+          url: "mail.php",
+          data: th.serialize()
+        }).done(function() {
+          // после успешной отправки скрываем форму подписки и выводим окно с благодарностью за заполнение формы
+          $popThankYouWindow.fadeIn();
+          // используем куки на 30 дней, если человек заполнил форму
+          // для куки обязательно должен быть подключен jquery.cookie.min.js
+         // $.cookie('hideTheModal', 'true', { expires: 30 });
+          // очищаем форму
+          setTimeout(function() {
+            th.trigger("reset");
+          }, 5000);
+        });
+        return false;
+      }); */
 
 ?>
 
