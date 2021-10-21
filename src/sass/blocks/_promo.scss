@@ -1,6 +1,11 @@
 .promo {
     &__text {
         padding-top: 10%;
+        h2 {
+            max-width: 618px;
+            margin: 0 auto;
+            text-transform: none;
+        }
     }
     &__form-inner {
         width: 370px;
@@ -43,6 +48,15 @@
     }
     &__form {
         margin-top: 4%;
+    }
+    &__socials {
+        margin-top: 4%;
+    }
+    &__socials-wrapper {
+        width: 130px;
+        justify-content: space-between;
+        display: flex;
+        margin: 0 auto;
     }
 }
 

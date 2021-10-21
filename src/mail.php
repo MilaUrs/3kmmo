@@ -4,15 +4,14 @@
 
         # FIX: Replace this email with recipient email
         $mail_to = "shirenkoval@gmail.com";
+        $mail_from = '3KMMO';
         
         # Sender Data
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 
         
         # Mail Content
-        $content = "Name: Subscribe on 3K MMO\n";
-        $content .= "Email: $email\n\n";
-        $content .= "Message:\nNew subscription to update the game 3K MMO\n";
+        $content .= "New subscription to updates 3K MMO from Email:\n$email\n";
 
         # email headers.
         $headers = "The user left his email and signed up to update the game.

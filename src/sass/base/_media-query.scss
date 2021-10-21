@@ -1,230 +1,92 @@
 
 @media(max-width: 1300px) {
-    .container {
-		width: 95%;
-    }
+
 }
 
 @media(max-width: 1024px) {
-	.container {
-		width: 95%;
+	.promo {
+		padding-top: 5%;
 	}
-	.header__nav {
-		font-size: 14px;
-		ul {
-			li {
-				padding-left: 10px;
-				padding-right: 10px;
-			}
-		}
+	.promo__socials {
+		margin-top: 6%;
 	}
 }
 
-@media(max-width: 992px) {
-	.container {
-		width: 95%;
-	}
-}
 
-@media(max-width: 960px) {
-	.container {
-		width: 95%;
-	}
-	.header__nav {
-		display: none;
-	}
-	.header__wrapper {
-		grid-template-columns: 55px 35px;
-	}
-	.header__button {
-		display: none;
-	}
-	.header__burger {
-		display: block;
-	}
-	.header__contacts {
-		display: none;
-	}
-	.about__img {
-		height: 250px;
-		img {
-			width: 768px;
-			height: 250px;
-			object-fit: cover;
-		}
-	}
-	.about__info {
-		grid-template-rows: 70px auto 50px;
-		height: 250px;
-		grid-auto-rows: auto;
-	}
-	.about__text-descr {
-		width: 768px;
-	}
-	.about__text-title {
-		font-size: 50px;
-	}
-	.about {
-		padding-top: 60px;
-	}
-	.about__wrapper {
-		grid-template-rows: auto auto auto;
-		grid-template-columns: auto;
-		row-gap: 40px;
-	}
-}
 
 @media(max-width: 768px) {
-    .container {
-		width: 95%;
-    }
-	.main_subtitle {
-		font-size: 19px;
-		font-weight: 400;
+	.promo {
+		padding-top: 8%;
 	}
-	.main_title {
-		font-size: 145px;
-		line-height: 140%;
-	}
-	.about__img {
-		height: 250px;
-		img {
-			width: 720px;
-			height: 250px;
-			object-fit: cover;
-		}
-	}
-	.about__text-descr {
-		width: 720px;
-	}
-}
-
-@media(max-width: 576px) {
-    .container {
-		width: 95%;
-    }
-
-	.promo__social-inner {
-        width: 140px;
-    }
-	.promo__lang, .promo__lang-inner {
-		display: none;
-	}
-	.promo__info {
-		grid-template-columns: 1fr;
-		margin-top: 25%;
-	}
-	.promo__social {
-		display: block;
-		margin: 0 auto;
+	.promo__socials {
+		margin-top: 10%;
 	}
 	.promo__text {
-		padding-top: 25%;
+		max-width: 524px;
+		padding-bottom: 2%;
+		margin: 0 auto;
 	}
-	.about__img {
-		height: 250px;
-		img {
-			width: 540px;
-			height: 250px;
-			object-fit: cover;
-		}
-	}
-	.about__info {
-		grid-template-rows: 70px auto 50px;
-		height: 250px;
-		grid-auto-rows: auto;
-	}
-	.about__text-descr {
-		width: 540px;
-	}
-	.about__text-title {
-		font-size: 50px;
-	}
-	.about {
-		padding-top: 60px;
+	h2 {
+		font-size: 21px;
 	}
 }
 
-@media(max-width: 460px) {
-	.container {
-		width: 95%;
-	}
 
-	.main_title {
-		font-size: 115px;
-		line-height: 100%;
+
+@media(max-width: 460px) {
+	.promo {
+		padding-top: 15%;
 	}
-	.main_subtitle {
-	font-size: 22px;
-	width: 340px;
-	margin: 0 auto;
+	.promo__socials {
+		margin-top: 16%;
 	}
-	.about {
-		padding-top: 50px;
+	.promo__text {
+		max-width: 350px;
+		padding-bottom: 20%;
+		margin: 0 auto;
 	}
-	.about__img {
-		height: 250px;
-		img {
-			width: 375px;
-			height: 250px;
-			object-fit: cover;
-		}
+	h2 {
+		font-size: 18px;
 	}
-	.about__text-descr {
-		width: 375px;
+	h1 {
+		line-height: 130px;
+		font-size: 100px;
+	}
+	.promo__socials-wrapper {
+		width: 180px;
+	}
+	.promo__btn {
+		font-size: 18px;
+	}
+	.promo__form-inner input {
+		font-size: 18px;
 	}
 }
 
 @media(max-width: 375px) {
-	.container {
-		width: 95%;
+	.promo__form-inner {
+		flex-direction: column;
+		height: 130px;
 	}
-	.main_title {
-		font-size: 105px;
+	.promo__form-inner input {
+		width: 300px;
+		text-align: center;
 	}
-	.main_subtitle {
-		font-size: 20px;
-		margin: 0 auto;
-		width: 310px;
-	}
-	.about__wrapper {
-		grid-template-rows: auto auto auto;
-		grid-template-columns: auto;
-		row-gap: 30px;
-	}
-	.about__img {
-		height: 250px;
-		img {
-			width: 320px;
-			height: 250px;
-			object-fit: cover;
-		}
-	}
-	.about__info {
-		grid-template-rows: 70px auto 50px;
-		height: 280px;
-		grid-auto-rows: auto;
-	}
-	.about__text-descr {
-		width: 320px;
-	}
-	.about__text-title {
-		font-size: 45px;
-	}
-	.about {
-		padding-top: 30px;
-	}
-	.warning {
-		P {
-			font-size: 14px;
-		}
+	.promo__btn {
+		width: 300px;
 	}
 }
 
 
 @media(max-width: 320px) {
-	.container {
-		width: 95%;
+	.promo__text {
+		max-width: 300px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	.promo__form-inner {
+		width: 300px;
 	}
 }
 
